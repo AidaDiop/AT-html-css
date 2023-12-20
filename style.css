@@ -19,12 +19,20 @@ ul{
  }
 
  .container{
-    max-width: 340px;
     padding: 30px;
     border-radius: 10px 10px 10px 10px;
     background-color: burlywood;
-    margin: auto;
+    align-items: center;
+    gap: 20px;
+ }
 
+ .cont{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-left: 24%;
+   gap: 20px;
  }
 
  input{
@@ -32,6 +40,9 @@ ul{
    border-radius: 5px 5px 5px 5px;
    border: 1px solid white;
    outline: none;
+   width: 300px;
+   justify-content: center;
+   align-items: center;
 
  }
 
@@ -41,4 +52,15 @@ ul{
    text-align: center;
    gap: 20px;
    justify-content: center;
+  }
+
+  @media screen and (max-width: 412px){
+    .container{
+        padding-left: 100px;
+        
+     }
+
+     .butt{
+        padding-left: -20px;
+      }
   }
