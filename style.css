@@ -84,3 +84,7 @@ ul{
   h3{
    text-align: center;
   }
+
+  caption{
+   caption-side: bottom;
+  }
